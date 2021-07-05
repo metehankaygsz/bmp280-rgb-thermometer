@@ -32,3 +32,7 @@ If temperature is 15> temp >30 led will be green
 
 
 If temperature is <15 led will be blue
+
+
+
+You need Adafruit BMP280 library to run this code
