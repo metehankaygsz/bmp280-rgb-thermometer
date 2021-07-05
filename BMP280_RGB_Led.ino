@@ -13,8 +13,8 @@ Adafruit_BMP280 bmp;
 
 void setup() {
   pinMode(2, OUTPUT); //blue
-pinMode(3, OUTPUT); //green
-pinMode(1, OUTPUT); //red
+  pinMode(3, OUTPUT); //green
+  pinMode(1, OUTPUT); //red
   Serial.begin(9600);
 
   //if (!bmp.begin(BMP280_ADDRESS_ALT, BMP280_CHIPID)) {
