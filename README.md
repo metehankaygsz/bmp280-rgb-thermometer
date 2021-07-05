@@ -16,3 +16,9 @@ Control your RGB led using BMP280 sensor and Arduino
 | Red (R) | Digital 1  |
 | Green (G)  |Digital 3  |
 | Blue (B) | Digital 2  |
+
+
+
+If temperature is >30 led will be red
+If temperature is 15> temp >30 led will be green
+If temperature is <15 led will be blue
