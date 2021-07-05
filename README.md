@@ -1,6 +1,7 @@
 # bmp280-rgb-thermometer
 Control your RGB led using BMP280 sensor and Arduino
 
+[Youtube video](https://youtu.be/rL-t3XhaOv4)
 
 | BMP280 | Arduino |
 | ------------- | ------------- |
