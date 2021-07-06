@@ -36,22 +36,22 @@ void loop() {
     Serial.print(bmp.readTemperature());
  
     if (bmp.readTemperature() < cold) { //cold
-digitalWrite(2, HIGH);
-digitalWrite(3, LOW);
-digitalWrite(4, LOW);
-Serial.println(" Cold");
+    digitalWrite(2, HIGH);
+    digitalWrite(3, LOW);
+    digitalWrite(4, LOW);
+    Serial.println(" Cold");
 }
-else if (bmp.readTemperature() >= hot) { //hot
-digitalWrite(2, LOW);
-digitalWrite(3, LOW);
-digitalWrite(4, HIGH);
-Serial.println(" Hot");
+    else if (bmp.readTemperature() >= hot) { //hot
+    digitalWrite(2, LOW);
+    digitalWrite(3, LOW);
+    digitalWrite(4, HIGH);
+    Serial.println(" Hot");
 }
-else { //fine
-digitalWrite(2, LOW);
-digitalWrite(3, HIGH);
-digitalWrite(4, LOW);
-Serial.println(" Fine");
+    else { //fine
+    digitalWrite(2, LOW);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, LOW);
+    Serial.println(" Fine");
 }
     Serial.println();
     delay(100);
